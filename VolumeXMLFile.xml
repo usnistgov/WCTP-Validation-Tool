@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE wctp-Operation SYSTEM 'http://dtd.wctp.org/wctp-dtd-v1r3.dtd'>
+<wctp-Operation wctpVersion="wctp-dtd-v1r3">
+    <wctp-SubmitRequest>
+        <wctp-SubmitHeader submitTimestamp="timestamp">
+            <wctp-Originator senderID="sender ID" securityCode="security code"/>
+            <wctp-MessageControl messageID="message ID" transactionID="transaction ID" allowResponse="true" deliveryPrio="priority" notifyWhenDelivered="true" preformatted="true" notifyWhenRead="true"/>
+            <wctp-Recipient recipientID="recipient PIN"/>
+        </wctp-SubmitHeader>
+        <wctp-Payload>
+            <wctp-MCR>
+                <wctp-MessageText>notification text</wctp-MessageText>
+                <wctp-Choice>Accept</wctp-Choice>
+                <wctp-Choice>Reject</wctp-Choice>
+                <wctp-Choice actionURI="uriPrefix://action?id=123" actionURIPurpose="Discuss"> Accept</wctp-Choice>
+            </wctp-MCR>
+        </wctp-Payload>
+    </wctp-SubmitRequest>
+</wctp-Operation>

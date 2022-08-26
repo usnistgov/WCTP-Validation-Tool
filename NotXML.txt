@@ -1,0 +1,3 @@
+test file that is not xml
+
+should cause an error

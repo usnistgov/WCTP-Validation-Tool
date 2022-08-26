@@ -11,5 +11,9 @@ public class Warning extends Issue {
 		super(s, path);
 	
 	}
+	
+	public Warning(String s) {
+		super(s);
+	}
 
 }

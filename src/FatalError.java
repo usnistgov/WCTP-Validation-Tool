@@ -8,7 +8,10 @@ public class FatalError extends Issue {
 
 	public FatalError(String s, String path) {
 		super(s, path);
-		
+	}
+	
+	public FatalError(String s) {
+		super(s);
 	}
 
 }

@@ -8,7 +8,10 @@ public class Error extends Issue {
 
 	public Error(String s, String path) {
 		super(s, path);
-
+	}
+	
+	public Error(String s) {
+		super(s);
 	}
 
 }

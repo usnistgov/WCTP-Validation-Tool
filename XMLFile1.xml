@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE wctp-Operation SYSTEM "http://dtd.wctp.org/wctp-dtd-v1r3.dtd">
+<wctp-Operation wctpVersion="wctp-dtd-v1r1" wctpToken="11AA">
+    <wctp-SubmitRequest>
+        <wctp-SubmitHeader submitTimestamp="2013-11-13T08:15:00">
+            <wctp-Originator senderID="username" />
+            <wctp-MessageControl messageID="1C936BA3"/>
+            <wctp-Recipient recipientID="+19131115555"/>
+        </wctp-SubmitHeader>
+        <wctp-Payload>
+            <wctp-Alphanumeric>
+                test text WCTP messaging
+            </wctp-Alphanumeric>
+        </wctp-Payload>
+    </wctp-SubmitRequest>
+</wctp-Operation>
